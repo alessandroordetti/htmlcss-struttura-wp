@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    content="";
+    display: table;
+    clear:both;
+}
+
+.container {
+    padding: 35px;
+    width: 100%;
+}
+
+.container div{
+    margin-bottom: 25px;
+}
+
+.pink {
+    height: 75px;
+    background-color: pink;
+    width: 100%;
+}
+
+.yellow {
+    height: 300px;
+    background-color: yellow;
+    width: 100%;
+}
+
+.light-blue {
+    width: 100%;
+}
+
+.light-blue > menu, aside, main {
+    border: solid black;
+}
+
+.blue-menu {
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.left-aside {
+    width: 400px;
+    height: 500px;
+    background-color: lightblue;
+    float:left;
+}
+
+.blue-main {
+    width:calc(100% - 800px);
+    background-color: lightblue;
+    height: 500px;
+    float: left;
+}
+
+.right-aside {
+    width: 400px;
+    height: 500px;
+    background-color: lightblue;
+    float:left;
+}
+
+
+
+
+
+
