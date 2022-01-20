@@ -11,7 +11,7 @@
 }
 
 .container {
-    padding: 35px;
+    padding: 35px 200px 0 200px;
     width: 100%;
 }
 
@@ -35,7 +35,7 @@
     width: 100%;
 }
 
-.light-blue > menu, aside, main {
+.light-blue > menu, aside, article {
     border: 5px solid rgba(0, 47, 255, 0.589);
 }
 
@@ -45,25 +45,18 @@
     background-color: lightblue;
 }
 
-.left-aside {
-    width: 400px;
+.left-aside, .right-aside {
+    width: 250px;
     height: 500px;
     background-color: lightblue;
     float:left;
 }
 
-.blue-main {
-    width:calc(100% - 800px);
+.blue-article {
+    width:calc(100% - 500px);
     background-color: lightblue;
     height: 500px;
     float: left;
-}
-
-.right-aside {
-    width: 400px;
-    height: 500px;
-    background-color: lightblue;
-    float:left;
 }
 
 .violet {
